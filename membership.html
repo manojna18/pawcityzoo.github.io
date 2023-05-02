@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawcity Zoo</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <img src="assets/Pawcity-logo.png">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tickets.html">Plan your visit!</a></li>
+        <li><a href="programs.html">Explore</a></li>
+        <li><a href="membership.html">Become a member</a></li>
+      </ul>
+    </nav>
+    <article id="textContainer">
+      <img id="cardinal" src="assets/cardinal.jpg" alt="A duck in sunset">
+      <section id="memberText">
+        <h2>Join Pawcity's membership program!</h2>
+        <p>Pawcity is a non-profit zoo run entirely on donations from sponsors, guests and donors like you. &nbsp; Your contributions will be used to support the care and conservation of the over 400 species of animals and plants in the zoo.</p>
+        <h3>Pawcity members enjoy great discounts and other exclusive perks including free year-round admission!</h3>
+        <table id="membership">
+          <tr>
+            <th>Free admission</th>
+            <td>Visit whenever you want with free year-round admission for members</td>
+          </tr>
+          <tr>
+            <th>Big discounts</th>
+            <td>Enjoy exclusive discounts on events, encounters and wheelchair rentals</td> 
+          </tr>
+          <tr>
+            <th>Exclusive event passes</th>
+            <td>Get exclusive passes to events and shows</td>
+          </tr>
+          <caption>Welcome to Pawcity family!</caption>
+        </table>
+        <button id="mplan1">Individual plan<br>Admits 1 adult (ages 18 and above)</button>
+        <button id="mplan2">Family<br>Admits 2 adults and up to 2 children (ages 2-17)</button>
+        <div id="donationForm">
+          <h3>You can also support us through donations</h3>
+          <form id="donationForm" action="mailto:maddipatla.srikalyan@student.oaklandcc.edu" method="post">
+            <fieldset>
+              <legend> Your Personal Information</legend>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name"/>
+              <br>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name"/>
+              <br>
+              <label for="phone">Your Phone Number</label>
+              <input type="tel" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+              <br>
+            </fieldset>
+            <input type="submit" value="Donate now!">
+        </div>
+    </article>
+  </header>
+  <footer>
+    <div id="icons">
+      <h3>Follow us!</h3>
+      <a href="https://www.facebook.com/WPZooSociety/"><img src="assets/icons8-facebook-50.png"></a>
+      <a href="https://twitter.com/detroitzoo?lang=en"><img src="assets/icons8-twitter-50 (1).png"></a>
+      <a href="https://www.instagram.com/detroitzoo/?hl=en"><img src="assets/icons8-instagram-50 (1).png"></a>
+    </div>
+    <p>&copy; 2023 Pawcity Zoological Society</p>
+    <p>271 North Golf Street<br>Grand Rapids, MI 49503</p>
+  </footer>
+  
+</body>
+</html>

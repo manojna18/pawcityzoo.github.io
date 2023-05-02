@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawcity Zoo</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <img src="assets/Pawcity-logo.png">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tickets.html">Plan your visit!</a></li>
+        <li><a href="programs.html">Explore</a></li>
+        <li><a href="membership.html">Become a member</a></li>
+      </ul>
+    </nav>
+    <nav id="verticalMenu">
+      <ul>
+         <a id="button1"><li>Reptile house</li></a>
+         <a id="button2"><li>Salim Ali Aviary</li></a>
+         <a id="button3"><li>Frigid Zone</li></a>
+       </ul>
+     </nav>
+    <article id="textContainer">
+      <img src="assets/IMG-1509.PNG" alt="A bluejay in flight">
+      <section id="explore">
+        <h2>Over 2000 animals call Pawcity home!</h2>
+        <p>Pawcity is spread over 110 acres of land with extensive habitats designed with care to put animal well-being at the center.</p>
+      </section>
+      <section id="reptiles">
+        <h2>Reptile House</h2>
+        <p>From the African spurred tortoise to the Colombian Red Tail Boa, the reptile house at Pawcity zoo shelters over 40 species of reptiles, 30% of which are threatened.</p>
+        <a href="https://www.youtube.com/watch?v=vuzyV8iM_ag&ab_channel=AnimalFactFiles"><img src="assets/Zoo visit 040.JPG" alt="python"></a>
+      </section>
+      <section id="polar">
+        <h2>Frigid Zone</h2>
+        <p>Prepare for a close encounter with the 10-year-old male polar bear Jordan, female Elsa and their 2-year-old cubs Rosie and Henry at Pawcity's Arctic Zone. The habitat is carefully designed to mimic the bear family's natural habitat and includes a large saltwater pool. If you can't wait to meet the emperor penguins of Antarctica, this is where you would find them. </p>
+        <img src="assets/Manogna_Maddipatla_Project 8.gif" alt="penguin animation">
+      </section>
+      <section id="aviary">
+        <h2>Salim Ali Aviary</h2>
+        <p>Named after the Indian ornithologist Dr. Salim Ali, the aviary at Pawcity Zoo is created to shelter over 30 species of flying, swimming and walking birs including the stunning North African Ostrich.</p>
+        <iframe src="https://www.youtube.com/embed/qxbxsTy3PPw"></iframe>
+      </section>
+       
+    </article>
+  </header>
+  <footer>
+    <div id="icons">
+      <h3>Follow us!</h3>
+      <a href="https://www.facebook.com/WPZooSociety/"><img src="assets/icons8-facebook-50.png"></a>
+      <a href="https://twitter.com/detroitzoo?lang=en"><img src="assets/icons8-twitter-50 (1).png"></a>
+      <a href="https://www.instagram.com/detroitzoo/?hl=en"><img src="assets/icons8-instagram-50 (1).png"></a>
+    </div>
+    <p>&copy; 2023 Pawcity Zoological Society</p>
+    <p>271 North Golf Street<br>Grand Rapids, MI 49503</p>
+  </footer>
+  
+</body>
+<script>
+  document.getElementById("button1").addEventListener("click", changeDisplay1);
+
+  function changeDisplay1(){
+    document.getElementById("reptiles").style.display="block";
+    document.getElementById("polar").style.display="none";
+    document.getElementById("explore").style.display="none";
+    document.getElementById("aviary").style.display="none";
+  }
+  
+  document.getElementById("button2").addEventListener("click", changeDisplay2);
+
+  function changeDisplay2(){
+    document.getElementById("reptiles").style.display="none";
+    document.getElementById("polar").style.display="none";
+    document.getElementById("explore").style.display="none";
+    document.getElementById("aviary").style.display="block";
+  }
+
+  document.getElementById("button3").addEventListener("click", changeDisplay3);
+
+  function changeDisplay3(){
+    document.getElementById("reptiles").style.display="none";
+    document.getElementById("polar").style.display="block";
+    document.getElementById("explore").style.display="none";
+    document.getElementById("aviary").style.display="none";
+  }
+  
+ 
+  
+
+  
+</script>
+</html>

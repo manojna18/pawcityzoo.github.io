@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawcity Zoo</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <img src="assets/Pawcity-logo.png">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tickets.html">Plan your visit!</a></li>
+        <li><a href="programs.html">Explore</a></li>
+        <li><a href="membership.html">Become a member</a></li>
+      </ul>
+    </nav>
+    <article id="form-container">
+      <h1>General Admission Tickets</h1>
+      <ol>
+        <li>Booking your tickets in advance online helps you avoid long waiting lines at Zoo entrance.</li> <li>General admission tickets are available at zoo entrance between 8 am and 10 am every day at $20 per child or senior, and $25 per adult.</li>
+        <li>Get a parking pass in advance for hassle-free parking.</li>
+        <li>Please email info@pzs.org if you have any questions.</li>
+      </ol>
+
+      <form action="mailto:maddipatla.srikalyan@student.oaklandcc.edu" method="post">
+        <fieldset>
+          <legend> Select ticket details</legend>
+          <br>
+          <label for="date">Date: &nbsp;</label>
+          <input type="date" id="date">
+          <br>
+          <br>    
+          <label for="quantity">Adults (18-59 yrs)&nbsp;(Max: 10): &nbsp;</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10">
+          <br>
+          <br>  
+          <label for="quantity">Children (2-17 yrs)&nbsp;(Max: 10):&nbsp;</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10">
+          <br>
+          <br>  
+          <label for="quantity">Seniors (>60 yrs)&nbsp; (Max: 10):&nbsp;</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10">
+          <br>
+          <br>
+          <label for="quantity">Parking ($10/vehicle):&nbsp;</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10">
+          <br>
+          <br>
+          <button id="addToCart">Buy Now!</button>
+        </fieldset>
+    </article>
+  </header>
+  <footer>
+    <div id="icons">
+      <h3>Follow us!</h3>
+      <a href="https://www.facebook.com/WPZooSociety/"><img src="assets/icons8-facebook-50.png"></a>
+      <a href="https://twitter.com/detroitzoo?lang=en"><img src="assets/icons8-twitter-50 (1).png"></a>
+      <a href="https://www.instagram.com/detroitzoo/?hl=en"><img src="assets/icons8-instagram-50 (1).png"></a>
+    </div>
+    <p>&copy; 2023 Pawcity Zoological Society</p>
+    <p>271 North Golf Street<br>Grand Rapids, MI 49503</p>
+  </footer>
+  
+</body>
+</html>
